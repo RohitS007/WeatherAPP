@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: orange !important;
+}
+
+.card{
+    background-color:rgb(15, 38, 240);
+    width: 400px;
+    display: flex;
+    align-items:center;
+    padding: 40px;
+    margin: 10px;
+}
+
+.card.card-img-tpo{
+    width: 100px;
+}
+
+.location-date{
+    text-align: center;
+    background-color: skyblue;
+    color: red;
+}
+
+.temperature{
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    background-color: skyblue;
+    color: red;
+}
